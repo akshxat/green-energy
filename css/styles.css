@@ -76,7 +76,7 @@ img {
 }
 
 .masthead {
-    background-image: url(./img/masthead.jpg);
+    background-image: url(../img/masthead.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

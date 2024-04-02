@@ -1,9 +1,9 @@
 function preloader() {
 
     const imagesList = [
-        "https://picsum.photos/seed/one/300",
-        "https://picsum.photos/seed/two/300",
-        "https://picsum.photos/seed/three/300"
+        "img/solar.jpg",
+        "img/wind.jpg",
+        "img/hydro.jpg"
     ];
 
     const images = [];

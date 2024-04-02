@@ -1,0 +1,141 @@
+/* Colour Scheme: #148C3E, #1DCC5A, #4FE684 */
+
+.wrap {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+* {
+    font-family: "Nunito", sans-serif;
+    line-height: 1.5;
+    font-size: 0.75rem;
+}
+
+h1, h2 {
+    font-family: "Libre Baskerville", serif;
+}
+
+h1 {
+    font-size: 1.25rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #148C3E;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+main {
+    background-color: #1DCC5A;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #4FE684;
+    padding: 1rem;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    list-style: none;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.nav a:hover {
+    background-color: #116c31;
+}
+
+.nav a:active {
+    background-color: #0f5529;
+}
+
+img {
+    width: 100%;
+}
+
+.masthead {
+    background-image: url(/img/masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0.1rem 1rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    color: #4FE684;
+    background-color: #116c31;
+    border-style: none;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    background-color: #0f5529;
+}
+
+button:active {
+    background-color: #083318;
+}
+
+.social i {
+    font-size: 2.5rem;
+    color: #116c31;
+    margin: 0.5rem;
+}
+
+@media only screen and (min-width: 30rem) {
+    
+    * {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0.5rem 0;
+    }
+
+    img {
+        width: 40%;
+        float: left;
+        margin-right: 1rem;
+    }
+
+    button {
+        font-size: 2rem;
+        padding: 1rem;
+        margin-right: 1rem;
+    }
+}
